@@ -10,10 +10,10 @@ function Hero() {
           <div className="flex flex-col md:flex-row justify-between items-center mt-4">
             <div className="flex flex-col gap-4 md:w-1/2">
               <p className="text-4xl font-medium">
-                An Exceptional approach <br /> for academic and career <br /> excellence online
+                An <span className="text-[#524fd5]">Exceptional</span> platform <br /> for academic and career <br /> excellence online
               </p>
               <p className="text-lg text-gray-500">
-                Learn at your own pace with endless access <br/> to mobile and desktop device anytime
+                Learn at your own pace with endless access <br/> on mobile and desktop device anytime
               </p>
               <button className="btn bg-[#524fd5] text-white rounded-full capitalize border-none w-44 h-10">Get started</button>
             </div>

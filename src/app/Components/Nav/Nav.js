@@ -22,7 +22,7 @@ function Nav() {
               <input
                 type='text'
                 placeholder='Search courses'
-                className='p-2 rounded-lg border border-white text-black pl-10 w-72'
+                className='p-2 rounded-full border border-white text-black pl-10 w-72'
               />
               <svg
                 className='absolute left-2 top-1/2 transform -translate-y-1/2 h-5 w-5 text-gray-500'
@@ -34,10 +34,10 @@ function Nav() {
                 <path strokeLinecap='round' strokeLinejoin='round' strokeWidth='2' d='M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z' />
               </svg>
             </div>
-            <a href='/' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Home</a>
-            <a href='/about' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>About</a>
-            <a href='/services' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Services</a>
-            <a href='/contact' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Contact</a>
+            <a href='/' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>About</a>
+            <a href='/about' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Courses</a>
+            <a href='/services' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Tutors</a>
+            <a href='/contact' className='text-black hover:bg-white hover:text-black rounded-lg p-2'>Pricing</a>
             <button className='text-[#524fd5] border border-white bg-white hover:bg-white hover:text-black rounded-xl p-2 w-24'>Sign Up</button>
           </div>
 
